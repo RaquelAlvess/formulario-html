@@ -1,2 +1,2 @@
-# formulario-html-css-js
-Projeto de formulário desenvolvido para praticar HTML, CSS e JavaScript.
+# formulario html
+Projeto de formulário desenvolvido para praticar HTML.
