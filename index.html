@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styleF.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Usuário</legend>
+
+            <label>Nome:</label>
+            <input type="text">
+
+            <label>Senha:</label>
+            <input type="password">
+        </fieldset>
+
+        <fieldset>
+            <legend>Gênero</legend>
+
+            <input type="radio" name="genero">
+            <label>Male</label>
+
+            <input type="radio" name="genero">
+            <label>Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes</legend>
+
+            <input type="checkbox">
+            <label>Futebol</label>
+
+            <input type="checkbox">
+            <label>Natação</label>
+
+            <input type="checkbox">
+            <label>Baseball</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Endereço</legend>
+            <textarea></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Upload de arquivo</legend>
+
+            <label>Upload:</label>
+            <input type="file">
+        </fieldset>
+
+        <fieldset>
+            <legend>Selecione Sua Cidade</legend>
+
+            <label>Cidade:</label>
+            <select>
+                <option>Vila Velha</option>
+                <option>Vitória</option>
+                <option>Viana</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Ação</legend>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Apagar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
